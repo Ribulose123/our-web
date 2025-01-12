@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { GiBowTieRibbon } from "react-icons/gi";
 import ImageSlider from './ImageSlider';
 

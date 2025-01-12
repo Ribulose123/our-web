@@ -1,6 +1,6 @@
  import React, { useState } from "react";
 
-const WheelSpin = () => {
+const WheelSpin:React.FC = () => {
   const [rotation, setRotation] = useState(0);
   const [isSpinning, setIsSpinning] = useState(false);
 

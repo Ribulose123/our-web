@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 
-const WordChanger = () => {
+const WordChanger:React.FC = () => {
   const words = ["Happy Valentine's day!", "Happy Anniversary!"];
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [animationComplete, setAnimationComplete] = useState<boolean>(true); // Control fade timing

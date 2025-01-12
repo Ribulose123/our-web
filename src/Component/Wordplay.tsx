@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import {gsap} from 'gsap'
 import{motion} from 'framer-motion'
 
-const Wordplay = () => {
+const Wordplay:React.FC = () => {
     const words =["Let celebrate", "Our Love"]
     const [currentWord, setCurrentWord]= useState<number>(0)
     const [animationComplete, setAminationComplete]=useState<boolean>(false)
